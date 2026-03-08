@@ -2,7 +2,6 @@ package com.example.lab01;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-// 仅把 javax 换成 jakarta，其余代码和PPT完全一致
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -30,3 +29,4 @@ public class helloservlet {
     public void destroy() {
     }
 }
+
